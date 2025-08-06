@@ -27,6 +27,5 @@ LibTrack is a console-based Library Management System developed in Core Java. It
 | **Abstraction**       | `Member` is declared as an abstract class to enforce common behavior.                          |
 | **Polymorphism**      | Members are handled generically using the `Member` reference for both `Student` and `Faculty`. |
 | **Method Overriding** | Subclasses override the `toString()` method for meaningful display.                            |
-| **Encapsulation**     | Private fields with public getters/setters ensure data protection.                             |
-| **Access Modifiers**  | `public`, `private`, and `protected` used appropriately.                                       |
+| **Encapsulation**     | Private fields with public getters/setters ensure data protection.                             |                                     |
 | **this & super**      | Used to refer to current object and parent class members.                                      |
