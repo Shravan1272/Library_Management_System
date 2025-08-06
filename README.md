@@ -1,4 +1,5 @@
-📚 LibTrack: A Console-Based Library Management System
+📚 LibTrack
+A Console-Based Library Management System
 💡 Overview
 LibTrack is a console-based Library Management System developed in Core Java. It follows Object-Oriented Programming (OOP) principles to manage books and library members efficiently. This project is designed for academic purposes and helps reinforce key OOP concepts like inheritance, polymorphism, abstraction, and more.
 
