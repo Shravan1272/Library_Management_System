@@ -45,21 +45,30 @@ This academic project strengthens understanding of key OOP concepts like **inher
 ---
 
 ## 📁 Project Structure
+
+```
 LibTrack/
 │
-├── Book.java           // Represents a book with ID, title, and availability status
+├── Book.java
+│   └── Represents a book with ID, title, and availability status
 │
-├── Member.java         // Abstract class representing a general library member
-│                       // Contains shared fields and methods for Student and Faculty
+├── Member.java
+│   └── Abstract class representing a general library member
+│       └── Contains shared fields and methods for Student and Faculty
 │
-├── Student.java        // Inherits from Member
-│                       // Represents a student member (can issue up to 2 books)
+├── Student.java
+│   └── Inherits from Member
+│       └── Represents a student member (can issue up to 2 books)
 │
-├── Faculty.java        // Inherits from Member
-│                       // Represents a faculty member (can issue up to 5 books)
+├── Faculty.java
+│   └── Inherits from Member
+│       └── Represents a faculty member (can issue up to 5 books)
 │
-├── Library.java        // Core class managing books and members
-│                       // Handles add/search/issue logic and maintains lists
+├── Library.java
+│   └── Core class managing books and members
+│       └── Handles add/search/issue logic and maintains lists
 │
-└── LibraryApp.java     // Console-based main class
-                        // Provides the interactive menu and calls Library methods
+└── LibraryApp.java
+    └── Console-based main class
+        └── Provides the interactive menu and calls Library methods
+```
